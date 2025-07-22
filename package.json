@@ -1,6 +1,15 @@
 {
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "indexxx.js",
+  "scripts": {
+    "start": "node indexxx.js",
+    "deploy": "node deploy-commands.js"
+  },
   "dependencies": {
     "discord.js": "^14.21.0",
-    "dotenv": "^17.2.0"
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
   }
 }
